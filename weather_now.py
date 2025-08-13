@@ -6,9 +6,9 @@ Fetch current weather for a city using the OpenWeatherMap API.
 
 Usage:
   python weather_now.py "Boston" --units imperial
-  python weather_now.py "Tirana" --units metric
+  python weather_now.py "Tokyo" --units metric
   python weather_now.py "London,UK" --units metric --lang en
-  # Or set your API key as an env var and omit --api-key:
+  # Or set  API key as an env var and omit --api-key:
   #   setx OPENWEATHER_API_KEY your_key_here   (Windows, new terminal)
   #   export OPENWEATHER_API_KEY=your_key_here (macOS/Linux)
 """
